@@ -1,0 +1,1 @@
+This repository contains a demonstration of a common issue when using Lua's `pairs` iterator. Modifying a table during iteration can lead to elements being skipped.  The `bug.lua` file shows the problematic code and `bugSolution.lua` provides a corrected version using a safe iteration technique.  This is crucial for avoiding unexpected behavior in your applications.
